@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+margin:0 ;
+padding:0 ;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+body{
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hearder{
+    background-image:url(imagenes/Imagen1.png) ;
+    background-position: left relative ;
+    background-repeat: no-repeat;    
+    min-height: 10 vh;
+    display: flex;    
+    align-items: left;
+}
+.menuinicial .navmenu ul li{
+    font-size: 38px;
+    color:chartreuse;
+    text-decoration: overline;
+    position: relative;
+}
+
+.menuinicial .navmenu ul li a{
+    font-size: 38px;
+    color:chartreuse;
+    text-decoration: overline;
+    display: contents;
+}
