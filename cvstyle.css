@@ -15,24 +15,24 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-.hearder{
-    background-image:url(imagenes/Imagen1.png) ;
-    background-position: left relative ;
-    background-repeat: no-repeat;    
-    min-height: 10 vh;
-    display: flex;    
-    align-items: left;
+
+.menu01 .navbar01 ul li{
+    position:relative;
+    float: left;
 }
-.menuinicial .navmenu ul li{
-    font-size: 38px;
-    color:chartreuse;
-    text-decoration: overline;
-    position: relative;
+.menu01 .navbar01 ul li a{
+    font-size: 25px;
+    padding: 30px;
+    margin-left: 75px; 
+    text-decoration: underline;
+    color: #1B293a;
+    display: block;
+    font-weight: 150;   
 }
 
-.menuinicial .navmenu ul li a{
-    font-size: 38px;
-    color:chartreuse;
-    text-decoration: overline;
-    display: contents;
+.perfil01{
+    position: relative;  
+    margin-top: 100px;  
+    margin-left: 75px;
+    color: red;
 }
