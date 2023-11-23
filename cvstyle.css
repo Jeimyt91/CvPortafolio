@@ -188,7 +188,24 @@ h3 {
 
 p {
     margin: var(--gutter-small-1) 0;
+    text-align: justify;
 }
+
+.form{
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 
 @media(max-width: 900px) {
     p { 
